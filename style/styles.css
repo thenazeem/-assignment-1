@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* share style start */
+.btn {
+ background-color: #30B868;
+ width: 164px;
+ height: 44px;
+ border: none;
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ 
+}
+
+
+/* share style end*/
+
+
+header{
+    padding-top: 50px;
+}
+
+nav{
+    width: 90%;
+    max-width: 1200px;
+    border: 1px solid;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 139px;
+    height: 60px;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    
+}
+
+nav .menu a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
