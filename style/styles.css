@@ -143,3 +143,48 @@ h1{
     font-weight: bold;
 }
 /* hero section end */
+
+
+/* footer section start */
+.footer-container{
+    background-color: rgb(1, 1, 26);
+    height: 200px;
+}
+.footer{
+    
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+
+
+}
+.footer-link{
+   width: 90%;
+  
+   
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+}
+.social-media{
+    width: 20px;
+    
+}
+.social-icon{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 15px;
+}
+.copyright{
+    margin-top: 100px;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0;
+}
+/* footer section end */
