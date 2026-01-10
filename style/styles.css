@@ -21,6 +21,11 @@
  
 }
 
+.peragraf{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
 
 /* share style end*/
 
@@ -32,7 +37,6 @@ header{
 nav{
     width: 90%;
     max-width: 1200px;
-    border: 1px solid;
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
@@ -58,3 +62,84 @@ nav .menu a {
 
 }
 
+
+
+/* hero section start */
+#hero{
+    height: 674px;
+    max-width: 1600px;
+    background-image: url('/assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.heading-color{
+    color: #30B868;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.hero-content{
+    
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    
+}
+
+.heding-title{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.early{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 230px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: bold;
+
+    
+}
+
+.building{
+    width: 251px;
+    height: 52px;
+    background-color: #30B868;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+}
+.Works{
+    width: 251px;
+    height: 52px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+}
+/* hero section end */
