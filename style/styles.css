@@ -168,7 +168,6 @@ h1{
 
 .card-container{
     display: flex;
-    
     justify-content: space-around;
     width: 90%;
     margin: 20px auto;
@@ -201,6 +200,58 @@ h1{
     align-items: center;
     padding: 15px;
 }
+
+
+/* brain section start */
+
+.brain-container{
+    width: auto;
+    
+    background-color: rgb(248, 243, 236);
+    
+    
+
+    
+}
+.brain-content{
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brain-img{
+    width: 40%;
+}
+.text-content{
+    border: 1px solid;
+    width: 50%;
+    
+}
+
+
+.card-headig{
+    color: #30B868;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.braing-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.checkbox{
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid;
+    
+    
+}
+/* brain section end */
 
 
 
