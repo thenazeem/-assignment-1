@@ -68,7 +68,7 @@ nav .menu a {
 #hero{
     height: 674px;
     max-width: 1600px;
-    background-image: url('/assets/hero-bg.png');
+    background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     
