@@ -225,7 +225,7 @@ h1{
     width: 40%;
 }
 .text-content{
-    border: 1px solid;
+    
     width: 50%;
     
 }
@@ -247,11 +247,41 @@ h1{
 .checkbox{
     margin-top: 30px;
     font-size: 20px;
-    border: 1px solid;
+    
     
     
 }
 /* brain section end */
+
+
+
+/* Early Access section start */
+
+.early-access-container{
+    height: 400px;
+    
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.early-content{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    
+}
+.early-caption{
+    margin-bottom: 25px;
+}
+.early-endline{
+    margin-top: 20px;
+}
+
+
+/* Early Access section end */
 
 
 
@@ -300,3 +330,28 @@ h4{
     margin-bottom: 0;
 }
 /* footer section end */
+
+
+
+/* hover */
+
+
+.btn:hover{
+    background-color: white;
+    color: #30B868;
+    border: 1px solid;
+    transition-duration: 1s;
+}
+.building:hover{
+    background-color: white;
+    color: #30B868;
+    border: 1px solid;
+    transition-duration: 1s;
+}
+
+.Works:hover{
+    background-color: white;
+    color: #30B868;
+    border: 1px solid;
+    transition-duration: 1s;
+}
